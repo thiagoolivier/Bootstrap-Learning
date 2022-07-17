@@ -4,8 +4,16 @@ ul, ol {
     padding: 0;
 }
 
-@media (min-width: 480px) {
-    
+@media (max-width: 767px){
+    .nav-item {
+        text-align: center;
+        border-bottom: 1px solid rgb(209, 207, 207);
+        width: 30%;
+    }
+
+    :last-of-type{
+        border: none;
+    }
 }
 
 @media (min-width: 768px) {
@@ -14,7 +22,8 @@ ul, ol {
         align-items: flex-start;
     }
 
-    .m-content, .p-content {
-        padding: 12px;
+    #top-nav-bar {
+        flex-direction: row !important;
+        justify-content:flex-start !important;
     }
 }
