@@ -1,23 +1,11 @@
-ol, ul {
-	list-style: none;
+ul, ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
-@media (max-width: 480px){
-    div {
-        width: 443px;
-        justify-content: center;
-    }
-
-    h1 {
-        text-align: start;
-    }
-
-    #btn-group-id {
-        margin-bottom: 20px;
-    }
-
-    .btn-group {
-        margin: 0 20px 0 20px auto;
-        max-width: 420px;
+@media (max-width: 480px) {
+    #main-title {
+        text-align: center;
     }
 }
