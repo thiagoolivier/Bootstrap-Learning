@@ -17,11 +17,6 @@ ul, ol {
 }
 
 @media (min-width: 768px) {
-    .m-p-content {
-        display: flex;
-        align-items: flex-start;
-    }
-
     #top-nav-bar {
         flex-direction: row !important;
         justify-content:flex-start !important;
