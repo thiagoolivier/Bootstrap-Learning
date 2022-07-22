@@ -15,10 +15,3 @@ ul, ol {
         border: none;
     }
 }
-
-@media (min-width: 768px) {
-    #top-nav-bar {
-        flex-direction: row !important;
-        justify-content:flex-start !important;
-    }
-}
